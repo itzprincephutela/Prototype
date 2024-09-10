@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">HealthCareInfo</div>
+            
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search..." aria-label="Search">
+                <button>Search</button>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Hospitals</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Map Section with Google Map Embed -->
+    <section class="map-section">
+        <h2>Hospitals at Current Location</h2>
+        <div class="map">
+            <!-- Embed Google Map here -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096644!2d144.96315781531836!3d-37.81362797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43a9e3f3bd%3A0x7bcf31e6e402e0f0!2sMelbourne%20Hospital!5e0!3m2!1sen!2sau!4v1632792620835!5m2!1sen!2sau"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <!-- Emergency Contact Section -->
+        <section class="emergency-contact-section">
+            <h2>Emergency Contacts</h2>
+            <div class="contact-boxes">
+                <div class="contact-box">
+                    <h3>Ambulance</h3>
+                    <p>Contact: 123-456-789</p>
+                </div>
+                <div class="contact-box">
+                    <h3>Police</h3>
+                    <p>Contact: 987-654-321</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hospital Details Section -->
+        <section class="details-section">
+            <h2>Hospital Information</h2>
+            <div class="hospital-info">
+                <div class="info-item">Bed Availability: Available</div>
+                <div class="info-item">Doctor: Present</div>
+                <div class="info-item">Medical Stock:: Available</div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
